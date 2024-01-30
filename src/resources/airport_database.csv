@@ -1,0 +1,146 @@
+ICAO,Name,DEL,GND,TWR,APP,DEP,CTR,Class
+ADMS,Admiral Varyag,None,None,None,None,None,132.100,None
+AAHA,Ahrensdorf Airfield,None,None,None,None,None,127.825,None
+BIAK,Aktanes Regional Airport,None,None,None,None,None,134.500,None
+VHAL,Al Tak International Airport,124.650,121.600,118.700,123.800,119.10,130.600,None
+EBAB,Alpenblick Airfield,None,None,None,None,None,127.825,None
+LPAA,Amaras Regional,None,None,124.660,119.605,119.606,127.825,None
+EGAC,Anhedral City Airport,None,None,None,None,None,127.825,None
+EGAI,Anhedral International Airport,None,121.830,118.080,None,None,127.825,None
+KAA,Ardmore Aerodrome,None,None,None,None,None,133.600,None
+KGZI,Asgard Regional Airport,None,None,None,None,None,133.550,None
+EGAB,Auchenburgh Airport,None,121.755,118.705,None,None,127.825,None
+NTAA,Augustus Atoll Airport,None,None,118.050,119.300,120.700,133.600,None
+ESRB,Base 23 Road Airstrip,None,None,None,None,None,133.550,None
+VNBA,Bilabadi International Airport,None,121.900,118.100,None,None,130.600,None
+EGBH,Bokingham Airport,None,None,None,None,None,127.825,None
+EGBK,Braekirk Airfield,None,None,None,None,None,127.825,None
+CMJA,Brunswick Depot Airstrip,None,None,None,None,None,133.550,None
+ECCY,Camp Cygnus,None,None,None,None,None,134.500,None
+SCTL,Cantaloa International Airport,118.900,121.850,118.350,122.750,122.751,135.850,None
+LICR,Capriano Airport,None,121.850,119.100,118.750,118.751,127.825,None
+NTCA,Castle Atoll Airport,None,128.580,129.660,120.500,119.450,133.600,None
+EGCA,Cheshire Aerodrome,None,None,None,None,None,127.825,None
+CHIC,Chicorida Campsite Bushfield,None,None,None,None,None,133.550,None
+KCHP,Clarence Heliport,None,None,None,None,None,133.600,None
+KCIA,Clarence International Airport,121.750,121.700,118.55,137.700,130.200,133.600,Bravo
+EICB,Corbaun Airport,None,None,None,None,None,127.825,None
+ECAF,Cygnus Aerolympics Field,None,None,None,None,None,134.500,None
+VDSA,Donsaba Airfield,None,None,None,None,None,130.600,None
+SDRA,Doura Airstrip,None,None,None,None,None,135.850,None
+PMEA,Eagle Island Estate,None,127.655,130.745,None,None,133.600,None
+EPEC,East Cove Airport,None,None,None,None,None,127.825,None
+LIEA,Ebenrau Regional,None,None,120.100,119.270,119.270,127.825,None
+BIEN,Einangrun Regional Airport,None,None,None,None,None,133.550,None
+CNAB,Eisenhardt AFB,None,118.260,119.350,121.445,121.445,132.100,None
+CEMA,Eisenhardt Municipal Airport,None,None,None,None,None,132.100,None
+AEMB,Emmelburg Airfield,None,None,None,None,None,127.825,None
+BGEI,Enoksen International Airport,None,121.705,120.600,None,None,134.500,None
+SLFG,Fidalgueira Airport,None,None,None,None,None,135.850,None
+UHFI,Fiskar Island Airport,120.500,120.570,121.200,127.700,127.400,133.600,None
+ENGF,Fjonndur Gravel Strip,None,None,None,None,None,133.550,None
+BIGB,Frosinnvöllur Glacier Base Airfield,None,None,None,None,None,133.550,None
+KGA,Gaston Airfield,None,None,None,None,None,133.600,None
+SKGF,Grafoso Regional Airport,None,None,118.350,None,None,135.850,None
+EHGA,Gutke Regional,None,None,None,None,None,127.825,None
+KHF,Hampden Field,None,None,None,None,None,133.600,None
+KHIA,Harden International,135.350,121.800,118.300,120.500,119.450,133.600,None
+CHVD,Havsiden Airstrip,None,None,None,None,None,133.550,None
+LGHE,Hemeos Airport,129.175,121.700,120.850,None,None,127.825,None
+NAHS,Hemera Sound Airfield,None,None,None,None,None,135.850,None
+AHBN,Highburn Airfield,None,None,None,None,None,127.825,None
+EDHB,Himmelsberg Airport,None,None,None,None,None,127.825,None
+SYHP,Hipe Airport,None,121.700,118.300,119.400,119.700,135.850,None
+VNHO,Horata Airport,None,None,None,None,None,130.600,None
+ZBHM,Horomoto AFB,None,125.330,125.520,125.790,125.790,130.600,None
+ENIH,Iceheart Lake Outpost,None,None,None,None,None,133.550,None
+ESID,Idéa Airfield,None,None,None,None,None,133.550,None
+CIRO,Iskander Research Outpost,None,None,None,None,None,133.550,None
+RKJP,Jepo International Airport,None,None,None,None,None,130.600,None
+BIJF,Jotunfrost Seaplane Base,None,None,None,None,None,133.550,None
+SYKT,Kaieteur Airport,None,None,None,None,None,135.850,None
+RJKP,Kapa Airport,None,None,None,None,None,130.600,None
+RJKS,Kashio Airport,None,None,122.900,128.225,128.725,130.600,None
+KKRA,Kauwela Resort Airport,118.300,121.900,118.700,119.150,133.675,133.600,None
+CFFL,Kerfuffle Campsite Bushfield,None,None,None,None,None,133.550,None
+KKBI,Kitesboro International Airport,None,121.800,119.45,125.500,127.500,133.600,None
+BGKF,Kjerstin Field,None,None,None,None,None,134.500,None
+BIKY,Kyrro Regional Airport,None,None,None,None,None,133.550,None
+ULIA,Leovetsk International Airport,None,120.700,131.500,119.300,120.400,132.100,None
+AVLF,Lifval Airport,None,None,None,None,None,127.825,None
+EGLH,Lionham AFB,None,121.725,123.725,127.250,127.250,127.825,None
+KLAB,Lynwood JAFB,124.72,121.900,126.000,119.300,120.700,133.600,None
+KLMA,Lynwood Municipal Airport,None,None,131.200,119.300,120.700,133.600,None
+AMGH,Manleigh Airfield,None,None,None,None,None,127.825,None
+AMRG,Marholt Airfield,None,None,None,None,None,127.825,None
+RCMH,Meihua International Airport,None,121.900,118.100,125.100,125.100,130.600,None
+KMEA,Millsho Estate,None,None,None,None,None,133.600,None
+EGMO,Morgenroete Park,None,None,None,None,None,127.825,None
+EGNA,Ness Aerodrome,None,None,None,None,None,127.825,None
+EGNE,New Englandtown Regional Airport,None,121.800,133.200,124.900,124.900,133.600,None
+ANBA,Nofberg Airfield,None,None,None,None,None,127.826,None
+ENNS,Nordspyd Arctic Airfield,None,None,None,None,None,133.550,None
+BING,Norðurhryggur Radar Station,None,None,None,None,None,133.550,None
+KNIA,Norman International Airport,118.0,121.100,118.750,125.050,125.900,133.600,Bravo
+ESNW,Northern Stone Works Gravel Strip,None,None,None,None,None,133.550,None
+UEWA,Northiachev Experimental Works,None,None,None,None,None,132.100,None
+UNFB,Novoaralsk AFB,119.420,119.700,120.250,None,None,132.100,None
+KOPA,Oakport Airport,None,121.905,124.005,134.180,134.180,132.450,None
+KOIA,Oconee Island Airport,None,122.640,118.255,137.700,130.200,133.600,None
+KODF,Odin's Farm Field,None,None,None,None,None,133.550,None
+BIOG,Ogon' Research Outpost,None,None,None,None,None,133.550,None
+SPOD,Ondeloz Regional Airport,None,None,None,None,None,135.850,None
+BIOA,Öskuflói International Airport,121.000,121.900,118.300,119.300,119.300,134.500,None
+OSSL,OSS Lernivo,None,None,None,None,None,None,None
+SKPD,Paredal Aerodrome,None,None,None,None,None,135.850,None
+LGPL,Pavlada Airport,None,None,123.250,126.050,126.050,127.825,None
+KPPA,Pembroke Plantation,128.300,None,129.250,None,None,133.600,None
+APET,Petwyn Airfield,None,None,None,None,None,127.827,None
+LPPM,Porto Menezes Airport,121.850,121.700,118.700,None,None,130.600,None
+KPIS,Primia Island Seaport,None,None,None,None,None,133.600,None
+VVPL,Purlaya Field,None,None,None,None,None,130.600,None
+VTRD,Radang International Airport,None,None,None,None,None,130.600,None
+ARHA,Raphael Airfield,None,None,None,None,None,127.828,None
+NTRI,Rawaki International Airport,121.975,121.900,118.300,127.400,124.300,133.600,None
+URRA,Riskhorosh Regional Airport,None,None,None,None,None,132.100,None
+CRIZ,Riziere International Airport,128.500,128.300,122.300,125.900,124.600,133.550,None
+EFYV,Ryvinsk Airfield,None,None,None,None,None,133.550,None
+NTBA,Saint Baralku Airport,None,121.200,115.300,120.500,119.450,133.600,None
+EDSA,Sandris International,121.605,129.505,120.030,119.620,119.500,127.825,None
+BIVS,Sandvöllur Airfield,None,None,None,None,None,133.550,None
+SCSM,Santa Mortica Airport,121.500,121.900,118.100,128.300,128.300,135.850,None
+LISA,Seilam Airport,None,121.620,119.050,118.650,120.575,127.825,None
+ASRF,Seraphim Remnant Facility,None,None,None,None,None,133.550,None
+EGSB,Sharra Beach Strip,None,None,None,None,None,127.825,None
+CSRO,Sienmann Radar Observatory,None,None,None,None,None,133.550,None
+ENSV,Skjoldvegg Joint National Outpost,None,None,None,None,None,133.550,None
+ENFR,Skogafrost Airfield,None,None,None,None,None,133.550,None
+LESD,Solada Scrapyard Airport,None,None,None,None,None,127.825,None
+SOLR,Solange Arctic Research Station,None,None,None,None,None,134.500,None
+BGSB,Stormbard Scientific Station,None,None,None,None,None,133.550,None
+VVSL,Suli International Airport,130.500,129.125,131.175,None,None,130.600,None
+CNJO,Sunrise Hills Airfield,None,None,None,None,None,133.550,None
+AFTA,Tadaen Farm Airfield,None,None,None,None,None,127.825,None
+ATRQ,Tarquay Airfield,None,None,None,None,None,127.825,None
+LFTF,Terfeld Farm Aerodrome,None,None,None,None,None,127.825,None
+TDH,The Dockhouse,None,None,None,None,None,133.600,None
+ATDA,Tierdam Airfield,None,None,None,None,None,127.831,None
+CTCA,Tikaranto City Airport,None,121.700,119.200,124.474,127.574,133.550,None
+CTIK,Tikaranto International Airport,121.300,121.900,118.350,124.475,127.575,133.550,None
+TTLA,Tom's Totally Legitimate Aircraft Hangar,None,None,None,None,None,133.600,None
+TTLG,Tom's Totally Legitimate Gambling Establishment,None,None,None,None,None,133.600,None
+ATOM,Tomfoolery Airfield,None,None,None,None,None,134.500,None
+LSTA,Torchevel Airstrip,None,None,None,None,None,127.825,None
+RJTS,Tousunai Airfield,None,None,None,None,None,130.600,None
+ATRI,Trivlon Airfield,None,None,119.555,None,None,127.825,None
+ATRK,Tyrakov Airfield,None,None,None,None,None,127.825,None
+RJUB,Umibutsu International Airport,None,121.650,118.050,120.650,120.650,130.600,None
+CUTH,Unity Transport Hub,None,121.350,119.700,None,None,133.550,None
+LDUA,Unserdan Regional,None,None,None,None,None,127.825,None
+LFVI,Valois International,135.505,120.405,118.100,None,None,127.825,None
+CVFA,Venfjord International Airport,None,121.700,119.600,None,None,133.550,None
+ARTN,Warton Airport,None,None,None,None,None,127.829,None
+MUWI,Webley Island,None,121.100,118.200,None,None,133.600,None
+AVYS,Yoeshaw Museum Airfield,None,None,None,None,None,127.825,None
+LBYA,Yuripa International,None,None,None,None,None,127.825,None
+ZBZC,Zhoudaijiang International Airport,121.875,121.700,118.825,120.000,120.000,130.600,None
