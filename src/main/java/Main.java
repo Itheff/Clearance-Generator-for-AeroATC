@@ -13,6 +13,7 @@ class Main {
 
         // Initial input for ICAO vs FAA
         input = "";
+        System.out.println("WARNING: ICAO MODE IS NON FUNCTIONAL IN THIS BUILD, PROGRAM WILL CLOSE AUTOMATICALLY IF ICAO MODE IS CHOSEN");
         while (!(input.equals("ICAO") || input.equals("FAA"))) {
 
             System.out.println("Please select a version: ICAO or FAA");

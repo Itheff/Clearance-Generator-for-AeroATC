@@ -59,7 +59,7 @@ public class FlightPlan {
      * @param icao string representing the ICAO code of the airport where frequencies are being checked
      * @return a string containing the requested frequency OR the lowest frequency found above the requested frequency
      */
-    public String findFreqency(String icao, int frequencyType) {
+    public String findFreqency(int frequencyType) {
 
         // This makes a BufferedReader object which is read by the loop below
         InputStream inputStream = FlightPlan.class.getResourceAsStream("/resources/airport_database.csv");
@@ -115,6 +115,35 @@ public class FlightPlan {
         
     }
 
+    public String findClass() {
+
+        // This makes a BufferedReader object which is read by the loop below
+        InputStream inputStream = FlightPlan.class.getResourceAsStream("/resources/airport_database.csv");
+        InputStreamReader streamReader = new InputStreamReader(inputStream);
+        BufferedReader bufferedReader = new BufferedReader(streamReader);
+
+        // For some reason the whole thing crashes if it's not in a try block
+        try {
+            // This checks all the ICAO codes in the aircraft database against the departure ICAO code in the flight plan
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                String[] splitLine = line.split(",");
+                if (splitLine[0].equals(flightPlan[6])) {
+                    // When a matching ICAO code is found, the method then returns the class of the aiport
+                    return splitLine[8];
+                }
+            }
+    
+        // Honestly, I don't know why this try block is here, this never raises any exceptions so it pretty useless
+        // But it doesn't work otherwise, ask ChatGPT I guess because I did, and this is what it spat out and it worked
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return "N/A";
+        
+    }
+
     /**
      * This method takes no parameters and returns a full oral IFR clearance for aircraft with a SID
      * @return a string containing an oral clearance for the flight plan
@@ -136,7 +165,7 @@ public class FlightPlan {
         clearanceBuilder.append(" transition, then as filed. Climb via the SID and expect FL");
         clearanceBuilder.append(flightPlan[9]);
         clearanceBuilder.append(" 10 minutes after departure. Departure frequency on ");
-        clearanceBuilder.append(findFreqency(flightPlan[6], 4));
+        clearanceBuilder.append(findFreqency(4));
         clearanceBuilder.append(", squawk ");
         clearanceBuilder.append(genSquawk());
         clearanceBuilder.append(".");
@@ -162,7 +191,7 @@ public class FlightPlan {
         clearanceBuilder.append(" as filed. Initial altitude 4000, expect FL");
         clearanceBuilder.append(flightPlan[9]);
         clearanceBuilder.append(" 10 minutes after departure. Departure frequency on ");
-        clearanceBuilder.append(findFreqency(flightPlan[6], 4));
+        clearanceBuilder.append(findFreqency(4));
         clearanceBuilder.append(", squawk ");
         clearanceBuilder.append(genSquawk());
         clearanceBuilder.append(".");
@@ -197,13 +226,34 @@ public class FlightPlan {
         clearanceBuilder.append("TRANSITION, CLIMB VIA SID EXP ");
         clearanceBuilder.append(flightPlan[9]);
         clearanceBuilder.append(" 10 MINS AFTER DPT DPT FREQ ");
-        clearanceBuilder.append(findFreqency(flightPlan[6], 4));
+        clearanceBuilder.append(findFreqency(4));
         clearanceBuilder.append(", SQUAWK ");
         clearanceBuilder.append(genSquawk());
         clearanceBuilder.append(".");
 
         // This assembles the built string and returns it
         return (clearanceBuilder.toString());
+
+    }
+
+    public String generateVFRClearance() {
+
+        if (findClass().equals("Bravo")) {
+
+            StringBuilder clearanceBuilder = new StringBuilder();
+
+            clearanceBuilder.append(flightPlan[2]);
+            clearanceBuilder.append(" cleared into the ");
+            clearanceBuilder.append(flightPlan[6]);
+            clearanceBuilder.append(" class Bravo airspace at or below 10,000 feet. Squawk ");
+            clearanceBuilder.append(genSquawk());
+            clearanceBuilder.append(".");
+
+            return clearanceBuilder.toString();
+        
+        }
+
+        return "VFR clearance not required unless departing from class Bravo";
 
     }
 
